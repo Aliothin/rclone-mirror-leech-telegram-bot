@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from pymongo import MongoClient
 from aria2p import API as ariaAPI, Client as ariaClient
 from qbittorrentapi import Client as qbitClient
-from subprocess import Popen, run as srun
+from subprocess import Popen, run as srun, check_output
 from megasdkrestclient import MegaSdkRestClient, errors
 from pyrogram import Client
 from bot.conv_pyrogram import Conversation
